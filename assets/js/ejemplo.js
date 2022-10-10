@@ -97,7 +97,6 @@ function ejecutarSincrono()
         cambiarAVerde("bar"+index);
         for(let ayudante=0; ayudante < 1000000000; ayudante++){}
         cambiarAGris("bar"+index);
-        alert("Tarea 1 Finalizada");
     }
 }
 
