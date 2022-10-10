@@ -35,8 +35,10 @@
  *      - Estructura:
  *          let <nombre> = new Promise(<función>)
  *          let <nombre> = new Promise(<función lambda>)
- *          let <nombre> = new Promise(<función>)
- * 
+ *          let <nombre> = new Promise(<función anónima>)
+ *          function <nombre>(){
+ *              return new Promise
+ *          }
  */
 
 /** Asincronismo - Uso de promesas */
@@ -50,7 +52,7 @@ function ejemplo1()
 /** Asincronismo - Uso de palabra reservada async */
 async function ejemplo2()
 {
-    await setTimeout(agregarComponente, 5000, "bg-green");
+    setTimeout(agregarComponente, 5000, "bg-green");
 }
 
 /** Espera de Asincronismo - Uso de palabra reservada await */
