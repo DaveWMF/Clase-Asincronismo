@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible">
+
+        <title>Mini NASA</title>
+
+        <link rel="stylesheet" href="assets/css/general.css">
+        <script src="./assets/js/ejemplo.js" ></script>
+    </head>
+    <body>
+        <!--  -->
+        <div id="cabecera" class="bg-oxford padding-2">
+            <h1>Asincronismo</h1>
+        </div>
+        <!--  -->
+        <div id="contenedor">
+            <div class="col-s-12 inline">
+                <div class="card borde-redondo bg-Xlightgray">
+                    <button class="btn-normal" onclick="ejemplo1()">Ejemplo 1</button>
+                    <button class="btn-normal" onclick="ejemplo2()">Ejemplo 2</button>
+                    <button class="btn-normal" onclick="ejemplo3()">Ejemplo 3</button>
+                    <button class="btn-normal" onclick="ejemplo4()">Ejemplo 4</button>
+                </div>
+            </div>
+            <div class="col-s-12 col-6 inline">
+                <div class="card borde-redondo bg-Xlightgray">
+                    <h2>¿Asincronía?</h2>
+                    <hr><br>
+                    <div class="col-s-12">
+                        <div id="bar1" class="burger borde-redondo bg-oxford center">bar1</div>
+                    </div>
+                    <div class="col-s-12">
+                        <div id="bar2" class="burger borde-redondo bg-oxford center">bar2</div>
+                    </div>
+                    <div class="col-s-12">
+                        <div id="bar3" class="burger borde-redondo bg-oxford center">bar3</div>
+                    </div>
+                    <div class="col-s-12">
+                        <div id="bar4" class="burger borde-redondo bg-oxford center">bar4</div>
+                    </div>
+                    <div class="col-s-12">
+                        <div id="bar5" class="burger borde-redondo bg-oxford center">bar5</div>
+                    </div>
+                    <hr><br>
+                    <button class="btn-normal" onclick="ejecutarSincrono()">Activar</button>
+                </div>
+            </div>
+            <div class="col-s-12 col-6 inline">
+                <div class="card borde-redondo bg-Xlightgray">
+                    <h2>Concurrente</h2>
+                    <hr><br>
+                    <div class="col-s-12">
+                        <div id="bar6" class="burger borde-redondo bg-oxford center">bar6</div>
+                    </div>
+                    <div class="col-s-12">
+                        <div id="bar7" class="burger borde-redondo bg-oxford center">bar7</div>
+                    </div>
+                    <div class="col-s-12">
+                        <div id="bar8" class="burger borde-redondo bg-oxford center">bar8</div>
+                    </div>
+                    <div class="col-s-12">
+                        <div id="bar9" class="burger borde-redondo bg-oxford center">bar9</div>
+                    </div>
+                    <div class="col-s-12">
+                        <div id="bar10" class="burger borde-redondo bg-oxford center">bar10</div>
+                    </div>
+                    <hr><br>
+                    <button class="btn-normal" onclick="ejecutarAsincrono()">Activar</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
