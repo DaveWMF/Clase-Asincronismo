@@ -17,7 +17,7 @@
  *              <código a repetir hasta que la condición sea falsa>
  *          }
  *      - Ejemplo (Repetir 10 veces una alerta):
- *          for(let indice = 0; indice < 10)
+ *          for(let indice = 0; indice < 10; indice++)
  *          {
  *              alert("Mi número va en: " + indice);
  *          }
